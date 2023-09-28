@@ -44,9 +44,8 @@ jobs:
               . ~/.nvm/nvm.sh
 
                nvm instal 18
-               npm install -g pm2
                git pull origin main
                npm install
                npm run build
-               pm2 restart api
+               npm run start
             
