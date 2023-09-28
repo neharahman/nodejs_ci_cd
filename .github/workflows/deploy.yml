@@ -38,7 +38,7 @@ jobs:
           username:  ${{ secrets.USER }}
           key:  ${{ secrets.KEY }}
           port:  ${{ secrets.PORT }}
-          target_dir: ${{ secrets.TARGET_DIR }}
+          target: ${{ secrets.TARGET_DIR }}
           script: |
               curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
               . ~/.nvm/nvm.sh
