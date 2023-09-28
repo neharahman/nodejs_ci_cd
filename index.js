@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/',(req,res)=>{
-    res.send('hello ci/cd pipeline')
+    res.send('hello ci/cd pipeline changes code')
 })
 
 app.get('/home',(req,res)=>{
