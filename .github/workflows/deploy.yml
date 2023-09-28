@@ -9,6 +9,7 @@ on:
       strategy:
         matrix:
           node-version: [18.x]
+
       steps:
         - uses: actions/checkout@v2
         - name: Use node js
