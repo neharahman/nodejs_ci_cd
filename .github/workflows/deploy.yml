@@ -43,6 +43,7 @@ jobs:
               . ~/.nvm/nvm.sh
 
                nvm install 18
+               cd ~/cicd
                git pull origin main
                npm install
                npm run start
