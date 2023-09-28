@@ -22,7 +22,8 @@ on:
             npm run build
       env:
         CI: true
-  deploy:
+        
+  depoly:
     needs: [build]
     runs-on: ubuntu-latest
 
