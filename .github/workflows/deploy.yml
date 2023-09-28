@@ -43,6 +43,7 @@ jobs:
               . ~/.nvm/nvm.sh
 
               nvm install node
+              cd nodejs_ci_cd
               git pull origin main
               npm install
               npm run start
