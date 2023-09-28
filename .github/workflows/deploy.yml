@@ -43,7 +43,7 @@ jobs:
               . ~/.nvm/nvm.sh
 
                nvm install node
-               cd home/ubuntu
+               cd ~home/ubuntu
                git pull origin main
                npm install
                npm run start
