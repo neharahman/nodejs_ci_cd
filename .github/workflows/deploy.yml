@@ -42,8 +42,7 @@ jobs:
               curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
               . ~/.nvm/nvm.sh
 
-               nvm install 18
-               cd ~/cicd
+               nvm install node
                git pull origin main
                npm install
                npm run start
