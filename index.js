@@ -8,6 +8,7 @@ app.get('/',(req,res)=>{
 app.get('/home',(req,res)=>{
     res.send('hello home')
 })
+
 app.listen(9000,()=>{
     console.log('listening to the server')
 })
