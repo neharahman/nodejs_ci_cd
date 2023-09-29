@@ -9,7 +9,7 @@ app.get('/home',(req,res)=>{
     res.send('hello home')
 })
 app.get('/cicd',(req,res)=>{
-    res.send('hello ci cd auto deployed successfully')
+    res.send('hello ci cd auto deployed successfully hi')
 })
 
 app.listen(9000,()=>{
