@@ -8,6 +8,9 @@ app.get('/',(req,res)=>{
 app.get('/home',(req,res)=>{
     res.send('hello home')
 })
+app.get('/cicd',(req,res)=>{
+    res.send('hello ci cd auto deployed successfully')
+})
 
 app.listen(9000,()=>{
     console.log('listening to the server')
